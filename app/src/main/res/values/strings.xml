@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CloseBeacon</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop">Stop</string>
+    <string name="unknown_device">Unknown Device</string>
+    <string name="error_bluetooth_not_supported">Bluetooth is not supported</string>
+    <string name="ble_not_supported">Ble not supported</string>
+    <string name="title_devices">CloseBeacon</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="data_value">DataValue</string>
+    <string name="gatt_services_discovered">Gatt Services Discovered</string>
+</resources>

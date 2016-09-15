@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray">
+
+        <TextView
+            android:id="@+id/bluetooth_device_rssi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="4dp"
+            android:textSize="16sp"
+            tools:text="rssi" />
+
+        <TextView
+            android:id="@+id/bluetooth_device_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/bluetooth_device_rssi"
+            android:padding="4dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:text="Device name" />
+
+        <TextView
+            android:id="@+id/bluetooth_device_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bluetooth_device_name"
+            android:layout_toLeftOf="@id/bluetooth_device_rssi"
+            android:padding="4dp"
+            android:textSize="12sp"
+            tools:text="Device address" />
+    </RelativeLayout>
+
+</LinearLayout>
